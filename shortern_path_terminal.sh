@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-
 PS1='\e[1;34m\u@\H:\e[0m\e[1;33m\W\e[0m\e[1;35m$\e[0m ' # This will give: user@pc_name:cwd
 echo "Changed"
 
