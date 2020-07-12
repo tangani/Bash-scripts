@@ -4,7 +4,7 @@ function usage() {
 	
 	echo "ensure the shebang corresponds with your shell enviroment"
 	echo "run the script with a . to execute in the same shell"
-	echo -e "\e[32m			. shorten_shell_path.sh "
+	echo -e "\e[32m			. shortern_path_terminal.sh "
 }
 
 function user_color_select() {
