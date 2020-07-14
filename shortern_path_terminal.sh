@@ -1,5 +1,33 @@
 #!/usr/bin/bash
 
+
+: <<'COMMENT'
+	This script is meant to shorten the path on the user terminal while beautifying it by addiict custom colors.
+	There is a comment command at the bottom of the script which will reload the default configuration of the terminal.
+
+	How it works:
+		* The variable PS1 controls the display of the terminal.
+			PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]$ '
+
+		* u - Determines the user
+		* w - Determines the current working directory
+		* W - Shows the full path upto the current working directory
+		* h - Displays the name of the system
+
+		* [\033[01;32m\] - Determines the whether text is bold or ot and the color to be used
+			* 01 bold
+			* 00 not bold
+			Black       0;30     Dark Gray     1;30
+			Blue        0;34     Light Blue    1;34
+			Green       0;32     Light Green   1;32
+			Cyan        0;36     Light Cyan    1;36
+			Red         0;31     Light Red     1;31
+			Purple      0;35     Light Purple  1;35
+			Brown       0;33     Yellow        1;33
+			Light Gray  0;37     White         1;37
+
+COMMENT
+
 function usage() {
 	
 	echo "ensure the shebang corresponds with your shell enviroment"
