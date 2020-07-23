@@ -46,82 +46,82 @@ function color_select() {
 	do
 		case $opt in
 			"black")
-				echo -e "\033[01;30myou chose choice BLACK\e[0m"
+				echo -e "\033[01;30myou chose BLACK\e[0m"
 				color="30"
 				break
 				;;
 			"red")
-				echo -e "\033[01;31myou chose choice RED\e[0m"
+				echo -e "\033[01;31myou chose RED\e[0m"
 				color="31"
 				break
 				;;
 			"green")
-				echo -e "\033[01;32myou chose choice GREAN\e[0m"
+				echo -e "\033[01;32myou chose GREAN\e[0m"
 				color="32"
 				break
 				;;
 			"yellow")
-				echo -e "\033[01;33myou chose choice YELLOW\e[0m"
+				echo -e "\033[01;33myou chose YELLOW\e[0m"
 				color="33"
 				break
 				;;
 			"blue")
-				echo -e "\033[01;34myou chose choice BLUE\e[0m"
+				echo -e "\033[01;34myou chose BLUE\e[0m"
 				color="34"
 				break
 				;;
 			"magenta")
-				echo -e "\033[01;35myou chose choice MAGENTA\e[0m"
+				echo -e "\033[01;35myou chose MAGENTA\e[0m"
 				color="35"
 				break
 				;;
 			"cyan")
-				echo -e "\033[01;36myou chose choice CYAN\e[0m"
+				echo -e "\033[01;36myou chose CYAN\e[0m"
 				color="36"
 				break
 				;;
 			"light gray")
-				echo -e "\033[01;37myou chose choice LIGHT GRAY\e[0m"
+				echo -e "\033[01;37myou chose LIGHT GRAY\e[0m"
 				color="37"
 				break
 				;;
 			"dark gray")
-				echo -e "\033[01;90myou chose choice DARK GRAY\e[0m"
+				echo -e "\033[01;90myou chose DARK GRAY\e[0m"
 				color="90"
 				break
 				;;
 			"light red")
-				echo -e "\033[01;91myou chose choice LIGHT RED\e[0m"
+				echo -e "\033[01;91myou chose LIGHT RED\e[0m"
 				color="91"
 				break
 				;;
 			"light green")
-				echo -e "\033[01;92myou chose choice LIGHT GREEN\e[0m"
+				echo -e "\033[01;92myou chose LIGHT GREEN\e[0m"
 				color="92"
 				break
 				;;
 			"light yellow")
-				echo -e "\033[01;93myou chose choice LIGHT YELLOW\e[0m"
+				echo -e "\033[01;93myou chose LIGHT YELLOW\e[0m"
 				color="93"
 				break
 				;;
 			"light blue")
-				echo -e "\033[01;94myou chose choice LIGHT BLUE\e[0m"
+				echo -e "\033[01;94myou chose LIGHT BLUE\e[0m"
 				color="94"
 				break
 				;;
 			"light magenta")
-				echo -e "\033[01;95myou chose choice LIGHT MAGENTA\e[0m"
+				echo -e "\033[01;95myou chose LIGHT MAGENTA\e[0m"
 				color="95"
 				break
 				;;
 			"light cyan")
-				echo -e "\033[01;96myou chose choice LIGH CYAN\e[0m"
+				echo -e "\033[01;96myou chose LIGH CYAN\e[0m"
 				color="96"
 				break
 				;;
 			"white")
-				echo -e "\033[01;97myou chose choice WHITE\e[0m"
+				echo -e "\033[01;97myou chose WHITE\e[0m"
 				color="97"
 				break
 				;;
