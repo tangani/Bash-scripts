@@ -7,6 +7,13 @@ vlc_pid=$(echo $vlc_details | awk '{print $2}')
 kill -9 $vlc_pid
 COMMENT
 
+:<<'TODO'
+1.	Capture the proper pid not the first bash execution with program name
+2. 	Have a more intuitive commentry for users to be bale to replicate the scripts into their own versions
+
+TODO
+
+
 function usage() {
 	
 	echo "ensure the shebang corresponds with your shell enviroment"
@@ -16,10 +23,10 @@ function usage() {
 
 function terminate_program() {
 
-	vlc_details=$(ps aux | grep -i $program_to_terminate | sed -n '1p')
-	vlc_pid=$(echo $vlc_details | awk '{print $2}')
+	program_details=$(ps aux | grep -i $program_to_terminate | sed -n '1p')
+	program_pid=$(echo $program_details | awk '{print $2}')
 
-	kill -9 $vlc_pid
+	kill -9 $program_pid
 }
 
 
