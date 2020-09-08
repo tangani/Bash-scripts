@@ -32,7 +32,7 @@ function usage() {
 	
 	echo -e "\e[34mPlease ensure the shebang corresponds with your shell enviroment\e[0m"
 	echo -e "run the script with a \033[01;31m.\e[0m to execute in the same shell"
-	echo -e "\e[32m			. shortern_path_terminal.sh \e[0m"
+	echo -e "\e[32m			. edit_terminal_path \e[0m"
 }
 
 function color_select() {
@@ -135,7 +135,7 @@ function color_select() {
 }
 
 echo ""
-echo -e "\033[01;92mAfternoon Human Being form the solar system, I will be your personal assistant for this session!\n\n\n\e[0m"
+echo -e "\033[01;92mHello Human Being form the solar system, I will be your personal assistant for this session!\n\n\n\e[0m"
 
 
 usage
@@ -172,3 +172,6 @@ PS1=${hold}
 
 
 echo -e "\e[97mChanged"
+
+printf " \n\n "
+echo -e "\033[01;92mGoodbye Human Being form the solar system. it has been a great experience working with you.\e[0m"
